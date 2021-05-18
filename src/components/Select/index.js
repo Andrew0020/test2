@@ -23,7 +23,17 @@ function SelectCustom() {
     const [selectList, setSelectList] = useState(LIST);
     const wrapSecond = document.getElementById('second');
 
+    const removeClass = () => {
+        for (let i = 0; i < wrapSecond.children.length; i++) {
+            wrapSecond.children[i].classList.remove('secondActive');
+        }
+    }
+
     const handleChange = (e) => {
+        if (e.target.value === '') {
+            removeClass();
+        }
+
         const result = LIST.filter(item => {
             return item.indexOf(e.target.value) !== -1;
         });
@@ -39,9 +49,7 @@ function SelectCustom() {
     const clickElement = (e) => {
         document.getElementById('select').value = e.target.innerHTML;
 
-        for (let i = 0; i < wrapSecond.children.length; i++) {
-            wrapSecond.children[i].classList.remove('secondActive');
-        }
+        removeClass();
 
         e.target.classList.add('secondActive');
 
@@ -54,9 +62,7 @@ function SelectCustom() {
         document.getElementById('select').value = '';
         document.getElementById('select').placeholder = 'Select ...';
 
-        for (let i = 0; i < wrapSecond.children.length; i++) {
-            wrapSecond.children[i].classList.remove('secondActive');
-        }
+        removeClass();
 
         setIsCrossActive(false);
         setSelectList(LIST);
