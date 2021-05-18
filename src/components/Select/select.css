@@ -1,0 +1,93 @@
+.select {
+    width: 400px;
+}
+
+.root {
+    background: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.main {
+    background: lightgray;
+    border-radius: 5px;
+    position: relative;
+}
+
+.mainTop {
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+
+.mainTop div {
+    display: inline-block;
+    width: 40px;
+}
+
+.mainTop div:first-child {
+    width: calc(100% - 80px);
+}
+
+.mainTop input {
+    border: 0;
+    border-radius: 5px;
+    font-size: calc(10px + 2vmin);
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: center;
+    width: calc(100% - 20px);
+}
+
+.cross {
+    opacity: 0;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
+
+.mainTop div:last-child {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.mainTop div:last-child:hover {
+    cursor: pointer;
+}
+
+.second {
+    background: white;
+    border-radius: 5px;
+    height: 147px;
+    overflow: scroll;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.second div {
+    padding: 5px 0;
+}
+
+.second div:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+.secondActive {
+    background: lightgray;
+}
+
+.elementHide {
+    display: none;
+}
+
+.elementShow {
+    opacity: 1;
+}
+
+.pink {
+    background: pink;
+}
