@@ -25,7 +25,7 @@ function SelectCustom() {
 
     const handleChange = (e) => {
         const result = LIST.filter(item => {
-            return item.startsWith(e.target.value);
+            return item.indexOf(e.target.value) !== -1;
         });
 
         setIsShowElements(true);
