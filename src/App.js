@@ -1,5 +1,5 @@
 import React from 'react';
-import SelectCustom from './components/Select';
+import SelectCustom from './components/SelectCustom';
 
 import './App.css';
 
