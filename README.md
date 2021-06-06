@@ -1,3 +1,13 @@
+https://andrew0020.github.io/test2/
+
+https://react-select.com/home - вот пример того что нужно сделать, там под копотом много всего, для тестового думаю достаточно ограничиться следующим функционалом:
+1) выпадающий список со скролом
+2) поиск по списку
+3) выбор элемента из списка
+4) по нажатию на крестик очищение поля
+
+---------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
