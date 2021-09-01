@@ -2,7 +2,7 @@
 
 https://andrew0020.github.io/test2/
 
-https://react-select.com/home - here is an example of what needs to be done, there are a lot of things under the hood, for a test I think it is enough to limit ourselves to the following functionality:
+https://react-select.com/home - here is an example of what needs to be done, there are a lot of things under the hood, for a test it is enough to limit ourselves to the following functionality:
 1) drop-down list with scrolling
 2) list search
 3) selection of an item from the list
