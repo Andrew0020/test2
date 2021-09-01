@@ -1,10 +1,12 @@
+# Input with some functionality
+
 https://andrew0020.github.io/test2/
 
-https://react-select.com/home - вот пример того что нужно сделать, там под копотом много всего, для тестового думаю достаточно ограничиться следующим функционалом:
-1) выпадающий список со скролом
-2) поиск по списку
-3) выбор элемента из списка
-4) по нажатию на крестик очищение поля
+https://react-select.com/home - here is an example of what needs to be done, there are a lot of things under the hood, for a test I think it is enough to limit ourselves to the following functionality:
+1) drop-down list with scrolling
+2) list search
+3) selection of an item from the list
+4) by clicking on the cross to clear the field
 
 ---------------
 
