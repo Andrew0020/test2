@@ -1,6 +1,6 @@
 # Input with some functionality
 
-https://andrew0020.github.io/test2/
+https://andrew0020.github.io/test2---input/
 
 https://react-select.com/home - here is an example of what needs to be done, there are a lot of things under the hood, for a test it is enough to limit ourselves to the following functionality:
 1) drop-down list with scrolling
